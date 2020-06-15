@@ -99,4 +99,4 @@ const chart = new Chart();
 
 ### 2、共享模块
 
-分别增加 [shared-zorro.module.ts](https://github.com/ng-alain/ng-alain/blob/master/src/app/shared/shared-zorro.module.ts) 和 [shared-delon.module.ts](https://github.com/ng-alain/ng-alain/blob/master/src/app/shared/shared-delon.module.ts) 次级导入模块文件，并且在 [shared.module.ts](https://github.com/ng-alain/ng-alain/blob/master/src/app/shared/shared.module.ts#L35) 引用它们，这有效的降低可能会包体的大小。
+分别增加 [shared-zorro.module.ts](https://github.com/ng-alain/ng-alain/blob/master/src/app/shared/shared-zorro.module.ts) 和 [shared-delon.module.ts](https://github.com/ng-alain/ng-alain/blob/master/src/app/shared/shared-delon.module.ts) 次级导入模块文件，并且在 [shared.module.ts](https://github.com/ng-alain/ng-alain/blob/master/src/app/shared/shared.module.ts#L35) 引用它们，这可能会有效地降低包体的大小。
